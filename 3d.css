@@ -1,0 +1,165 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5vw;
+    background-color: #fff;
+}
+
+.header-logo-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+.search form {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+.search input {
+    border: none;
+    background: transparent;
+    min-width: 300px;
+    outline: none;
+}
+
+.buttons {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 8px 18px;
+    background: none;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #1a73e8;
+    color: white;
+    border-color: #1a73e8;
+}
+
+#banner {
+    text-align: center;
+    padding: 60px 10vw;
+    background-color: #e6f0ff;
+}
+
+.banner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.popular-categories, .featured-courses, .instructors, .reviews, .latest-articles, .faq, .newsletter {
+    padding: 40px 5vw;
+    text-align: center;
+}
+
+.category-container,
+.course-container,
+.instructor-container,
+.review-container,
+.article-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.categories, .course, .instructor, .student, .article {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.categories {
+    width:120px;
+    padding:15px;
+}
+
+.course, .article {
+    width:300px;
+}
+
+.course img, .article img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.instructor {
+    width:250px;
+    padding:20px;
+}
+
+.instructor img {
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+.student {
+    padding:25px;
+    width:350px;
+}
+
+.faq-item {
+    width: 70%;
+    margin: 10px auto;
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.newsletter form {
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+.newsletter input {
+    min-width:300px;
+    padding:10px 15px;
+    border-radius:20px;
+    border:1px solid #ccc;
+}
+
+.footer {
+    background:#333;
+    color:#fff;
+    padding:40px 5vw 20px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.footer-section a {
+    display:block;
+    color:#ccc;
+}
+
+.footer-bottom {
+    text-align:center;
+    padding:10px;
+    background:#333;
+    color:#ccc;
+}
